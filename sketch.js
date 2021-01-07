@@ -28,7 +28,7 @@ createCanvas(600,600);
 }
 
 function draw(){
-  background("lightBlue");
+  background(55);
   if(gameState===PLAY){
     sword.x=World.mouseX;
   sword.y=World.mouseY;
